@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Tomorrow:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Mundo Videojuegos</title>
+</head>
+
+<body>
+    <!---HEADER (inicio)-->
+    <header>
+        <nav>
+            <h1>Mundo Videojuegos</h1>
+            <div>
+                <div>
+                    <label for="busqueda">Buscar:</label>
+                    <input type="text" name="busqueda" id="busqueda">
+                </div>
+                <span>
+                    <input type="button" value="Iniciar Sesion">
+                    <input type="button" value="Mi carrito">
+                </span>
+            </div>
+        </nav>
+    </header>
+    <!---Header (final)-->
+    <!---Section (inicio)-->
+    <section>
+     <nav>
+            <ul>
+             <li class="lista-juegos"><a href="./pages/juegos.html">Juegos</a></li>
+             <li class="lista-consolas"><a href="./pages/consolas.html">Consolas</a></li>
+             <li class="lista-accesorios"><a href="./pages/accesorios.html">Accesorios</a></li>
+             <li class="lista-contacto"><a href="./pages/contacto.html" target="_blank">Contacto</a></li>
+            </ul>
+    </nav>
+   </section>
+        
+
+    <!---Secction (final)-->
+    <!---Main (inicio)-->
+    <main>
+        <nav>
+            <article>
+                <!---la imagen central seria un carrousel que representa los articulos mas destacados del sitio.-->
+                <div>
+                   <img class="articulo-destacado" src="./images/imagen-central.jpg" alt="articulo destacado"> 
+                   <img class="articulo-destacado-2" src="./images/imagen-central-2.jpg" alt="articulo destacado 2">
+                </div>
+                
+
+            </article>
+        </nav>
+
+        <h2 class="novedades">Ultimas novedades</h2>
+        
+        <nav>
+            <hr class="linea-div">
+            <!--las imagenes representan un carrousel con "articulos recientes." -->
+            <article>
+                
+                <div>
+                    <h3 class="auricular-gamer">Auricular Gamer</h3>
+                    <img class="auricular-gamer" src="./images/auricular-gamer.jpg" alt="Auricular">
+                    <h3 class="consola-nintendo">Nintendo Switch</h3>
+                    <img class="consola-nintendo" src="./images/nintendo-swtich.jpg" alt="Consola">
+                    <h3 class="joystick-360">Joystick Xbox 360</h3>
+                    <img class="joystick-360" src="./images/joystick-xbox360.jpg" alt="joystick">
+                </div>
+            </article>
+        </nav>
+        <!--las imagenes representan un carrousel con imagenes estaticas de las marcas -->
+        <div class="marcas-list">
+            <img src="./images/sony.jpg" alt="Sony">
+            <img src="./images/sega.png" alt="Sega">
+            <img src="./images/xbox.png" alt="Xbox">
+            <img src="./images/nintendo.jpg" alt="Nintendo">
+        </div>
+    </main>
+    <!---Main (final)-->
+    <!---Footer (inicio)-->
+    <footer>
+        <h2 class="titulo-footer">Mundo Videojuegos</h2>
+        <div>
+            <input type="button" value="Servicio Tecnico">
+            <input type="button" value="Contacto">
+        </div>
+        <span>
+            <h4 class="titulo-redes">Seguinos en:</h4>
+            <input type="button" value="IG">
+            <input type="button" value="Twitter">
+            <input type="button" value="Facebook">
+        </span>
+    </footer>
+    <!---Footer (final)-->
+</body>
+
+</html>
