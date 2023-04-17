@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Tomorrow:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Consolas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="../index.html">Mundo Videojuegos</a></h1>
+            <div>
+                <div>
+                    <label for="busqueda">Buscar:</label>
+                    <input type="text" name="busqueda" id="busqueda">
+                </div>
+                <span>
+                    <input type="button" value="Iniciar Sesion">
+                    <input type="button" value="Mi carrito">
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <nav>
+        <ul>
+         <li class="lista-juegos"><a href="./pages/juegos.html">Juegos</a></li>
+         <li class="lista-consolas"><a href="./pages/consolas.html">Consolas</a></li>
+         <li class="lista-accesorios"><a href="./pages/accesorios.html">Accesorios</a></li>
+         <li class="lista-contacto"><a href="./pages/contacto.html" target="_blank">Contacto</a></li>
+        </ul>
+</nav>
+</section>
+
+<main>
+<label for="categorias">Categorias:</label>
+    <select name="categorias" id="categorias">
+<option value="">Playstation</option>
+<option value="">Xbox</option>
+<option value="">Nintendo</option>
+</select>
+<label for="productos">Ordenar Por:</label>
+<select name="productos" id="productos">
+    <option value="">Todos</option>
+    <option value="">Menor precio</option>
+    <option value="">Mayor precio</option>
+    <option value="">Destacados</option>
+</select>
+<h4>Modo de vista:</h4>
+<label for="bloque">En bloque</label>
+<input type="radio" name="vista" id="bloque">
+<label for="linea">En linea</label>
+<input type="radio" name="vista" id="linea">
+<figure>
+    <img src="../images/ps4-destacados.jpg" alt="consola ps4">
+</figure>
+</main>
+
+<footer>
+    <h2 class="titulo-footer">Mundo Videojuegos</h2>
+    <div>
+        <input type="button" value="Servicio Tecnico">
+        <input type="button" value="Contacto">
+    </div>
+    <span>
+        <h4 class="titulo-redes">Seguinos en:</h4>
+        <input type="button" value="IG">
+        <input type="button" value="Twitter">
+        <input type="button" value="Facebook">
+    </span>
+</footer>   
+</body>
+</html>

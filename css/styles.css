@@ -1,0 +1,161 @@
+header {
+    background-color: rgb(214, 178, 17);
+    height: 100px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: "tomorrow", sans-serif;
+    height: 80px;
+    width: 160px;
+    display: inline;
+    position: relative;
+    top: 35px;
+    left: 350px;
+}
+
+header nav div {
+    display: inline;
+    position: relative;
+    left: 300px;
+    top: 16px;
+
+}
+
+header nav span {
+    position: relative;
+    left: 500px;
+    top: 15px;
+}
+ul {
+    position: relative;
+    left: 500px;
+    top: 20px;
+
+}
+.lista-juegos {
+    font-size: 3rem;
+    color: white;
+    display: inline;
+    position: relative;
+
+}
+.lista-consolas {
+    font-size: 3rem;
+    color: white;
+    display: inline;
+}
+.lista-accesorios {
+    font-size: 3rem;
+    color: white;
+    display: inline;
+}
+.lista-contacto {
+    font-size: 3rem;
+    color: white;
+    display: inline;
+}
+section nav {
+    background-image: url(../images/imagen-footer.jpg);
+    height: 100px;
+    position: relative;
+    bottom: 10px;
+    padding: 10px;
+    }
+
+main {
+    background-color: rgb(214, 178, 17);
+    }
+
+.articulo-destacado {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.articulo-destacado-2 {
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+
+.linea-div {
+    position: relative;
+    top: 200px;
+}
+
+.novedades {
+    position: relative;
+    left: 200px;
+    top: 200px;
+    color: black;
+}
+
+.auricular-gamer {
+    position: relative;
+    left: 200px;
+    top: 250px;
+    color: red;
+}
+
+.consola-nintendo {
+    position: relative;
+    left: 800px;
+    bottom: 80px;
+    color: red;
+}
+
+.joystick-360 {
+    position: relative;
+    left: 1400px;
+    bottom: 410px;
+    color: red;
+}
+
+.marcas-list {
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+}
+
+
+footer {
+    background-image: url(../images/imagen-footer.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
+.titulo-footer {
+    color: aliceblue;
+}
+
+.titulo-redes {
+    color: aliceblue;
+}
+
+h2 {
+    font-family: "tomorrow", sans-serif;
+    height: 150px;
+    display: inline;
+    position: relative;
+    left: 400px;
+    top: 35px;
+}
+
+h4 {
+    display: inline;
+}
+
+footer div {
+    position: relative;
+    left: 800px;
+    top: 10px;
+}
+
+footer span {
+    position: relative;
+    left: 1100px;
+    bottom: 10px;
+}
